@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-10-24 11:48:51" Modified_Date="2016-12-08 13:59:01" Creator="Tomi Maila" Comments="" ID="42790fb593d9b713a694e304b9d17d20">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-10-24 11:48:51" Modified_Date="2016-12-08 14:10:13" Creator="Tomi Maila" Comments="" ID="b62292f5686c6ff22530dadd87c211e9">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_rest_client</Package_File_Name>
-    <Library_Version>1.0.0.5</Library_Version>
+    <Library_Version>1.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
