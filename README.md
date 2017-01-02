@@ -29,7 +29,7 @@ The toolkit provides a VI for connecting LabVIEW applications with RESTful web s
 
 ![Basic workflow](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/open-get-close.png "Basic workflow")
 
-## Reference
+## API Reference
 
 ### Create REST Client
 Create REST Client creates an instance of the client.
