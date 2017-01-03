@@ -119,6 +119,28 @@ The VI provides multiple arguments for defining how to perform the HTTP request.
 The Default Headers specified upon creation of the JKI REST Client together with the request specific headers will all be 
 used for the HTTP request.
 
+### Destroy REST Client
+Closes REST Client instance and closes up all open HTTP connections.
+
+![Destroy REST Client](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/destroy-rest-client.png "Destroy REST Client")
+
+### Get Header By Name
+Gets a response HTTP header value by name.
+
+![Get Header By Name](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/get-header-by-name.png "Get Header By Name")
+
+The VI provides the following arguments.
+
+**Name** specifies the name of the HTTP header to get.
+
+### Get All Headers
+Gets all response HTTP headers.
+
+![Get All Headers](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/get-all-headers.png "Get All Headers")
+
+
+
+
 ## Contributing
 
 1. Fork it!
