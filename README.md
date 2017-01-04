@@ -22,8 +22,6 @@ palette menu.
 
 ![Functions palette](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/rest-palette.png "Functions palette")
 
-![REST Client palette](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/rest-palette-open.png "REST Client palette")
-
 ### Basic Workflow
 The toolkit provides a VI for connecting LabVIEW applications with RESTful web services. The basic workflow is presented in the image below.
 
@@ -31,7 +29,11 @@ The toolkit provides a VI for connecting LabVIEW applications with RESTful web s
 
 ## API Reference
 
-### Create REST Client
+### Main Palette
+
+![REST Client palette](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/rest-palette-open.png "REST Client palette")
+
+#### Create REST Client
 Create REST Client creates an instance of the client.
 
 ![Create REST Client](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/create-rest-client.png "Create REST Client")
@@ -50,7 +52,7 @@ The VI provides multiple arguments for defining how to create the JKI REST Clien
 
 **Cookie File** specifies a file path to be used for cookies.
 
-### HTTP HEAD
+#### HTTP HEAD
 Performs a HTTP HEAD Request.
 
 ![HTTP HEAD](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/http-head.png "HTTP HEAD")
@@ -63,7 +65,7 @@ The VI provides multiple arguments for defining how to perform the HTTP request.
 The Default Headers specified upon creation of the JKI REST Client together with the request specific headers will all be 
 used for the HTTP request.
 
-### HTTP GET
+#### HTTP GET
 Performs a HTTP GET Request.
 
 ![HTTP GET](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/http-get.png "HTTP GET")
@@ -76,7 +78,7 @@ The VI provides multiple arguments for defining how to perform the HTTP request.
 The Default Headers specified upon creation of the JKI REST Client together with the request specific headers will all be 
 used for the HTTP request.
 
-### HTTP POST
+#### HTTP POST
 Performs a HTTP POST Request.
 
 ![HTTP POST](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/http-post.png "HTTP POST")
@@ -91,7 +93,7 @@ The VI provides multiple arguments for defining how to perform the HTTP request.
 The Default Headers specified upon creation of the JKI REST Client together with the request specific headers will all be 
 used for the HTTP request.
 
-### HTTP PUT
+#### HTTP PUT
 Performs a HTTP PUT Request.
 
 ![HTTP PUT](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/http-put.png "HTTP PUT")
@@ -106,7 +108,7 @@ The VI provides multiple arguments for defining how to perform the HTTP request.
 The Default Headers specified upon creation of the JKI REST Client together with the request specific headers will all be 
 used for the HTTP request.
 
-### HTTP DELETE
+#### HTTP DELETE
 Performs a HTTP DELETE Request.
 
 ![HTTP DELETE](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/http-delete.png "HTTP DELETE")
@@ -119,12 +121,17 @@ The VI provides multiple arguments for defining how to perform the HTTP request.
 The Default Headers specified upon creation of the JKI REST Client together with the request specific headers will all be 
 used for the HTTP request.
 
-### Destroy REST Client
+#### Destroy REST Client
 Closes REST Client instance and closes up all open HTTP connections.
 
 ![Destroy REST Client](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/destroy-rest-client.png "Destroy REST Client")
 
-### Get Header By Name
+
+### Response Headers Palette
+
+![Response Headers palette](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/rest-palette-response-headers.png "Response Headers palette")
+
+#### Get Header By Name
 Gets a response HTTP header value by name.
 
 ![Get Header By Name](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/get-header-by-name.png "Get Header By Name")
@@ -133,7 +140,7 @@ The VI provides the following arguments.
 
 **Name** specifies the name of the HTTP header to get.
 
-### Get All Headers
+#### Get All Headers
 Gets all response HTTP headers.
 
 ![Get All Headers](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/get-all-headers.png "Get All Headers")
