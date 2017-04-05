@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-10-24 11:48:51" Modified_Date="2017-01-03 22:13:03" Creator="Tomi Maila" Comments="" ID="5aee2f91b20cb1a206708c799e7ff5c2">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-10-24 11:48:51" Modified_Date="2017-04-04 18:52:31" Creator="Tomi Maila" Comments="" ID="81cf865f866f49afa01492d8894baa5e">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_rest_client</Package_File_Name>
     <Library_Version>1.1.1.9</Library_Version>
@@ -111,7 +111,7 @@
         <Path>projects</Path>
       </Exclusions>
     </Source_Files>
-    <License_Agreement_Filepath/>
+    <License_Agreement_Filepath>..\LICENSE.md</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -363,7 +363,7 @@
         <Path>Response Headers</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1D8825F03262F4807CD2984236E15FFC</GUID>
+      <GUID>1BCCF6835005F2A44E7B02CAB1F01BA1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -412,7 +412,7 @@
         <Path>classes\Response Headers\Get All Headers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B06CCAA45E0272D989B78C068031B4F0</GUID>
+      <GUID>A8C2B4100904C2826B2F851D62128B4C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -573,7 +573,7 @@
         <Path>classes\REST Client\Write Verify Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>544841A9ADBDD0CF12EC74F7005746A5</GUID>
+      <GUID>36CB81DE59E6286E7AFA49B2D9712B4C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -608,7 +608,7 @@
         <Path>classes\REST Client\Escape URL String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>089E1081FE13419BCAE8D049DAA33ECA</GUID>
+      <GUID>8FE6B10447740BF1CD5D236331A259C8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
