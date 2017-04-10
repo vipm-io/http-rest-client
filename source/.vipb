@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-10-24 11:48:51" Modified_Date="2017-04-04 19:15:19" Creator="Tomi Maila" Comments="" ID="041d950320bd1a9ae1c3ba21953b05be">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-10-24 11:48:51" Modified_Date="2017-04-10 09:08:53" Creator="Tomi Maila" Comments="" ID="684da1d6a654786f1f6ef854eaa683ee">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_rest_client</Package_File_Name>
-    <Library_Version>1.1.1.11</Library_Version>
+    <Library_Version>1.2.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager/>
       <URL>http://jki.net</URL>
-      <Release_Notes>- Added an example and a license file</Release_Notes>
+      <Release_Notes>Updated documentation</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -99,6 +99,12 @@
       <Destination_Overrides>
         <Path>examples</Path>
         <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>JKI REST Client HELP.pdf</Path>
+        <Destination>4</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
@@ -368,7 +374,7 @@
         <Path>Response Headers</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8EB85EAF6C6A543867011CEE39A1CA4D</GUID>
+      <GUID>C918DC5A702F09CFEC64FED5D531787E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -417,7 +423,7 @@
         <Path>classes\Response Headers\Get All Headers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>513246482F110635B7EFE86821107C1D</GUID>
+      <GUID>D5D66B111A48B34D62E8F668D78BAC3B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -578,7 +584,7 @@
         <Path>classes\REST Client\Write Verify Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EE9BB875322C0EF7A8172E2FBFF81727</GUID>
+      <GUID>71EF75EA9ECA660E984FA756DE062B2E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -613,7 +619,7 @@
         <Path>classes\REST Client\Escape URL String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>63DDAB62ACEC92591C4E9EA7F69055B8</GUID>
+      <GUID>0948EACC24E36E367BBB1F889143D10E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
