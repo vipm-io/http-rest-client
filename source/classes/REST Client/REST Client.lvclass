@@ -2,7 +2,7 @@
 <LVClass LVVersion="13008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">REST Client.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../REST Client.lvlib</Property>
-	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str">/&lt;helpdir&gt;/JKI/REST Client/README.html</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)X!!!*Q(C=\&gt;8,D2."&amp;)8BUYA&amp;7R-"]AI*C=V.Q3EY!29XB&gt;[/74G&amp;GY*4=!J(:/!.!4A&amp;TV]VZ79E$XA$#+'J&gt;NHN5[^PKNM^5C`PJ,?[X#O@@FGO\&lt;XD]P:DW.,?8J?HE_8^&gt;PQVO7W`DL_?P^C_,(X4`H0`H;,8]FL_\`*Q^U@QRX](E^K$C'JK5:-;;MN?4'ZSEZP=Z#9P]C)P]C)P]C*0]C20]C20]C10]C!0]C!0]C$P"\H)23ZS3':RMZ#:V%RA/E/2?4-?YT%?Y_'LD-&gt;YD-&gt;YD)=O-B\D-2\D-2['S8C-RXC-RXC9KEP=$X)]RM0U+DS&amp;J`!5HM,$ECI]";"9L*CYG!3'CM&lt;CJ0!5HM,$K1J0Y3E]B;@QU+T#5XA+4_%J0!TJOV*&gt;UQZS0%SDR*.Y%E`C34R-L=34?"*0YEE],+@%EXA32,*A-DE%*9/3$MG8R*.Y_&amp;$C34S**`%E(JL[&amp;=K_-UX4$H)]A3@Q"*\!%XC91I%H]!3?Q".YG&amp;;"*`!%HM!4?&amp;B+A3@Q"*Y!%CT+]AIG#Q9'H9)A]0$K&gt;UPUKV2&gt;%PW1RMWL=6.KX'Q;.Z('T;&amp;RU45OJM:&amp;UNB]D5X6W#S.4&gt;$YYT41'BC.241'NYY[]X[C(KE([JY[5\@5$86.8&lt;7BP\HD_8T7[843]8D5Y8$1@L`80-`;&lt;L@;&lt;$:;L^&gt;;L6&lt;,9_!$R`*!?(IO08#__T:0OY^@JZW`]0F_WHX_0L8],`R``A??D8KDZWOQ2Y^N"E[R!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>

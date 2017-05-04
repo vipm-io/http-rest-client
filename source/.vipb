@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-10-24 11:48:51" Modified_Date="2017-04-10 09:08:53" Creator="Tomi Maila" Comments="" ID="684da1d6a654786f1f6ef854eaa683ee">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-10-24 11:48:51" Modified_Date="2017-05-04 14:43:23" Creator="Tomi Maila" Comments="" ID="25723c92feebc343a91a6c0d63316496">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_rest_client</Package_File_Name>
     <Library_Version>1.2.0.12</Library_Version>
@@ -104,6 +104,12 @@
       </Destination_Overrides>
       <Destination_Overrides>
         <Path>JKI REST Client HELP.pdf</Path>
+        <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>README.html</Path>
         <Destination>4</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
@@ -374,7 +380,7 @@
         <Path>Response Headers</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C918DC5A702F09CFEC64FED5D531787E</GUID>
+      <GUID>AC0652724336DFB35C4D40F75843516B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -423,7 +429,7 @@
         <Path>classes\Response Headers\Get All Headers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D5D66B111A48B34D62E8F668D78BAC3B</GUID>
+      <GUID>28ACB649FB34A3202B6C5AB95954B3BB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -584,7 +590,7 @@
         <Path>classes\REST Client\Write Verify Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>71EF75EA9ECA660E984FA756DE062B2E</GUID>
+      <GUID>19EF92C5E2991EEB480F9FFACBE32D9B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -619,7 +625,7 @@
         <Path>classes\REST Client\Escape URL String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0948EACC24E36E367BBB1F889143D10E</GUID>
+      <GUID>E4FDFC3E6CBD6554181B99E989505947</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
