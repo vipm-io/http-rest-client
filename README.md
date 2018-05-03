@@ -10,7 +10,7 @@ features that make it better fit for connecting with RESTful web services than L
 
 You can download and install JKI REST Client with VI Package Manager.
 
-[Get JKI REST Client](http://vipm.jki.net/#!/package/jki_lib_rest_client)
+[Get JKI REST Client](https://resources.jki.net/http-rest-client-for-labview)
 
 ## Usage
 JKI REST Client is a LabVIEW toolkit providing a library of VIs for connecting LabVIEW applications with REST based web services.
