@@ -1,4 +1,4 @@
-![JKI REST Client](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/JKI-REST-logo.png)
+![JKI REST Client](https://resources.jki.net/hs-fs/hubfs/JKI-REST-Client-2018.png)
 # JKI REST Client
 
 JKI REST Client is a HTTP client library for connecting LabVIEW applications with RESTful web services. 
