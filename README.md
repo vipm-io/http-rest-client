@@ -6,6 +6,8 @@ JKI REST Client provides a client implementation of HTTP protocol that is specif
 applications with web services. JKI REST Client augments the LabVIEW native implementation of HTTP by adding several 
 features that make it better fit for connecting with RESTful web services than LabVIEW native HTTP client.
 
+Want to discuss the JKI HTTP Rest Client? [Join the community discussion forum, here](https://forums.jki.net/forum/68-http-rest-client/).
+
 ## Installation
 
 You can download and install JKI REST Client with VI Package Manager.
