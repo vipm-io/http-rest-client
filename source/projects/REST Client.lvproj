@@ -3,6 +3,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -13,6 +14,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="REST Client.lvlib" Type="Library" URL="../../REST Client.lvlib"/>
+		<Item Name=".vipb" Type="Document" URL="../../.vipb"/>
+		<Item Name=".vipc" Type="Document" URL="../../.vipc"/>
+		<Item Name="README.html" Type="Document" URL="../../README.html"/>
+		<Item Name="REST Client - VI Tree.vi" Type="VI" URL="../REST Client - VI Tree.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
