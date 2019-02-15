@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2013-10-24 11:48:51" Modified_Date="2019-02-07 12:29:56" Creator="Tomi Maila" Comments="" ID="c8b3362ea19a4fcfdbbdba3fb18bde15">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2013-10-24 11:48:51" Modified_Date="2019-02-15 11:44:25" Creator="Tomi Maila" Comments="" ID="b2b5c9345aba80d5fca77fb3e3e350b6">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_rest_client</Package_File_Name>
-    <Library_Version>1.3.1.18</Library_Version>
+    <Library_Version>1.4.0.20</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -32,8 +32,7 @@
       <Copyright/>
       <Packager/>
       <URL>http://jki.net</URL>
-      <Release_Notes>- [FIX #8] Remove "Resolve Resource.vi" from disk (it's an old VI that's not used): https://github.com/JKISoftware/JKI-REST-Client/issues/8
-- [New #9] Improve QuickDrop by adding "(REST)" suffix to pallet items of the REST Client API VIs: https://github.com/JKISoftware/JKI-REST-Client/issues/9</Release_Notes>
+      <Release_Notes>- [NEW #11] https://github.com/JKISoftware/JKI-REST-Client/issues/11</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -126,6 +125,9 @@
       </Namespace_Overrides>
       <Exclusions>
         <Path>projects</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>tests</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\LICENSE.md</License_Agreement_Filepath>
@@ -394,7 +396,7 @@
         <Path>classes\REST Client\HTTP POST Multipart.vi</Path>
         <VI_Title>HTTP POST Multipart (REST)</VI_Title>
       </Items_Data>
-      <GUID>32C1912BDB718F5C6F94E726B50911EB</GUID>
+      <GUID>821DD9A3FB19936A4074F7AC8103E1DD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -443,7 +445,7 @@
         <Path>classes\Response Headers\Get All Headers.vi</Path>
         <VI_Title>Get All Headers (REST)</VI_Title>
       </Items_Data>
-      <GUID>67BD9F886ABBF9F50BF21FE6795B80E6</GUID>
+      <GUID>3C5024FFF00EBA19C01640E104178A4E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -604,7 +606,7 @@
         <Path>classes\REST Client\Write Verify Server.vi</Path>
         <VI_Title>Write Verify Server (REST)</VI_Title>
       </Items_Data>
-      <GUID>D5D18F6B5A0C46611C6CA7890A639601</GUID>
+      <GUID>81566A29D8D893E83A6B8A80F7972AF3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -639,7 +641,7 @@
         <Path>classes\REST Client\Escape URL String.vi</Path>
         <VI_Title>Escape URL String (REST)</VI_Title>
       </Items_Data>
-      <GUID>02BBEFE0596391EA308777BCC5E67881</GUID>
+      <GUID>76A7748463132262487453A9B4CE2DC8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
