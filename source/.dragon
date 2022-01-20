@@ -1,0 +1,9 @@
+{
+  "name":"JKI REST Client",
+  "labview-version":"2020",
+  "labview-bitness":"any",
+  "lv-venv":"",
+  "main-project":"projects/REST Client.lvproj",
+  "main-vipc":".vipc",
+  "main-vipb":".vipb"
+}
