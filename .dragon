@@ -1,0 +1,9 @@
+{
+    "name": "JKI HTTP REST Client",
+    "labview-version": "2017",
+    "labview-bitness": "32-bit",
+    "lv-venv": "",
+    "main-project": "source/projects/REST Client.lvproj",
+    "main-vipc": "source/.vipc",
+    "main-vipb": "source/.vipb"
+}
