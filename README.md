@@ -12,7 +12,7 @@ Want to discuss the HTTP Rest Client? [Join the community discussion forum, here
 
 You can download and install HTTP REST Client with VI Package Manager.
 
-[Get HTTP REST Client](https://resources.jki.net/http-rest-client-for-labview)
+[Get HTTP REST Client](https://www.vipm.io/package/jki_lib_rest_client/)
 
 ## Usage
 HTTP REST Client is a LabVIEW toolkit providing a library of VIs for connecting LabVIEW applications with REST based web services.
