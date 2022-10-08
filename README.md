@@ -2,7 +2,7 @@
 # HTTP REST Client for LabVIEW
 
 HTTP REST Client for LabVIEW, originally created by [JKI](https://jki.net), is a HTTP client library for connecting LabVIEW applications with RESTful web services. 
-JKI HTTP REST Client provides a client implementation of HTTP protocol that is specifically designed for integrating LabVIEW
+HTTP REST Client provides a client implementation of HTTP protocol that is specifically designed for integrating LabVIEW
 applications with web services. REST Client augments the LabVIEW native implementation of HTTP by adding several 
 features that make it better fit for connecting with RESTful web services than LabVIEW native HTTP client.
 
@@ -10,7 +10,7 @@ Want to discuss the HTTP Rest Client? [Join the community discussion forum, here
 
 ## Installation
 
-You can download and install JKI REST Client with VI Package Manager.
+You can download and install HTTP REST Client with VI Package Manager.
 
 [Get HTTP REST Client](https://resources.jki.net/http-rest-client-for-labview)
 
@@ -77,7 +77,7 @@ The VI provides multiple arguments for defining how to perform the HTTP request.
 **Path** specifies the path beneath the Base URL to be used for the HTTP request.
 
 **request specific headers** specifies an array of headers to be used with this particular HTTP request. 
-The Default Headers specified upon creation of the JKI REST Client together with the request specific headers will all be 
+The Default Headers specified upon creation of the HTTP REST Client together with the request specific headers will all be 
 used for the HTTP request.
 
 #### HTTP POST
