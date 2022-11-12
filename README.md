@@ -1,3 +1,5 @@
+[![Image](https://www.vipm.io/package/jki_lib_rest_client/badge.svg?metric=installs)](https://www.vipm.io/package/jki_lib_rest_client/) [![Image](https://www.vipm.io/package/jki_lib_rest_client/badge.svg?metric=stars)](https://www.vipm.io/package/jki_lib_rest_client/)
+
 ![HTTP REST Client for LabVIEW](https://user-images.githubusercontent.com/381432/194727878-ed7f915e-dd36-4e6e-a8ad-6088125d2c50.png)
 # HTTP REST Client for LabVIEW
 
