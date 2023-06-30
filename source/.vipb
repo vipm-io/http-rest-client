@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2013-10-24 11:48:51" Modified_Date="2023-06-29 15:27:15" Creator="Tomi Maila" Comments="" ID="679b28d2e1326982d3b121ac25f48cbf">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2013-10-24 11:48:51" Modified_Date="2023-06-30 07:38:37" Creator="Tomi Maila" Comments="" ID="49b251d1994c52f42ad7a82d592ae8a0">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_rest_client</Package_File_Name>
-    <Library_Version>2.0.0.32</Library_Version>
+    <Library_Version>2.0.0.33</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -33,12 +33,13 @@
       <Packager/>
       <URL>http://jki.net</URL>
       <Release_Notes>- Upgrade to LabVIEW 2020
+- [Feature #18][PR#19] Support for polymorphinc instance "File" for POST/PUT methods - https://github.com/vipm-io/HTTP-REST-Client/pull/19
 - [PR #23] Merge pull request #23 from @joerghampel - Remove unnecessary dependency to web services library - https://github.com/vipm-io/HTTP-REST-Client/pull/23
 - Changed behavior to match LV Web Service API's escape URL
 - Separate Compiled Code from all VIs
 
 Release Contributors
-@joerghampel @jimkring</Release_Notes>
+@francois-normandin @joerghampel @jimkring </Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -406,7 +407,7 @@ Release Contributors
         <Path>classes\REST Client\HTTP POST Multipart.vi</Path>
         <VI_Title>HTTP POST Multipart (REST)</VI_Title>
       </Items_Data>
-      <GUID>00D7094FEFC8677DDDCD1951C5D398C9</GUID>
+      <GUID>C7C898954A0C9AE7B80DA70E7C1DF22D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -455,7 +456,7 @@ Release Contributors
         <Path>classes\Response Headers\Get All Headers.vi</Path>
         <VI_Title>Get All Headers (REST)</VI_Title>
       </Items_Data>
-      <GUID>DDB5EFB9D9C25E4188849712644D1B12</GUID>
+      <GUID>A6A7DE2969008F1B3B24C54999F04467</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -616,7 +617,7 @@ Release Contributors
         <Path>classes\REST Client\Write Verify Server.vi</Path>
         <VI_Title>Write Verify Server (REST)</VI_Title>
       </Items_Data>
-      <GUID>3C3DCCB457D6BBA1D6D7554495352016</GUID>
+      <GUID>71759CD1D0BEB8B055EB8BAF0F0C1025</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -651,7 +652,7 @@ Release Contributors
         <Path>classes\REST Client\Escape URL String.vi</Path>
         <VI_Title>Escape URL String (REST)</VI_Title>
       </Items_Data>
-      <GUID>FE6D638DBD2811B5A4F282DEC22E83F4</GUID>
+      <GUID>4B52980B7D0A3DC64826ADD82A2898E1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
