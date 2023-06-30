@@ -1,25 +1,33 @@
-![JKI HTTP REST Client](https://resources.jki.net/hs-fs/hubfs/JKI-REST-Client-2018.png)
-# JKI HTTP REST Client
+[![Image](https://www.vipm.io/package/jki_lib_rest_client/badge.svg?metric=installs)](https://www.vipm.io/package/jki_lib_rest_client/)
+[![Image](https://www.vipm.io/package/jki_lib_rest_client/badge.svg?metric=stars)](https://www.vipm.io/package/jki_lib_rest_client/)
+![LabVIEW Version](https://img.shields.io/badge/LabVIEW-2020-%23E37725.svg?})
+![OS](https://img.shields.io/badge/OS-Windows-%2353E020.svg?})
+![OS](https://img.shields.io/badge/OS-Mac-%2353E020.svg?})
+![OS](https://img.shields.io/badge/OS-Linux-%2353E020.svg?})
 
-JKI HTTP REST Client is a HTTP client library for connecting LabVIEW applications with RESTful web services. 
-JKI HTTP REST Client provides a client implementation of HTTP protocol that is specifically designed for integrating LabVIEW
-applications with web services. JKI REST Client augments the LabVIEW native implementation of HTTP by adding several 
+
+![HTTP REST Client for LabVIEW](https://user-images.githubusercontent.com/381432/194727878-ed7f915e-dd36-4e6e-a8ad-6088125d2c50.png)
+# HTTP REST Client for LabVIEW
+
+HTTP REST Client for LabVIEW, originally created by [JKI](https://jki.net), is a HTTP client library for connecting LabVIEW applications with RESTful web services. 
+HTTP REST Client provides a client implementation of HTTP protocol that is specifically designed for integrating LabVIEW
+applications with web services. REST Client augments the LabVIEW native implementation of HTTP by adding several 
 features that make it better fit for connecting with RESTful web services than LabVIEW native HTTP client.
 
-Want to discuss the JKI HTTP Rest Client? [Join the community discussion forum, here](https://forums.jki.net/forum/68-http-rest-client/).
+Want to discuss the HTTP Rest Client? [Join the community discussion forum, here](https://forums.jki.net/forum/68-http-rest-client/).
 
 ## Installation
 
-You can download and install JKI REST Client with VI Package Manager.
+You can download and install HTTP REST Client with VI Package Manager.
 
-[Get JKI REST Client](https://resources.jki.net/http-rest-client-for-labview)
+[Get HTTP REST Client](https://www.vipm.io/package/jki_lib_rest_client/)
 
 ## Usage
-JKI REST Client is a LabVIEW toolkit providing a library of VIs for connecting LabVIEW applications with REST based web services.
+HTTP REST Client is a LabVIEW toolkit providing a library of VIs for connecting LabVIEW applications with REST based web services.
 
 ### Palette
-To use JKI REST Client, you need to drop the corresponding JKI REST Client 
-VIs to the block diagrams. The JKI REST Client VIs are located under the JKI Tools functions
+To use HTTP REST Client, you need to drop the corresponding HTTP REST Client 
+VIs to the block diagrams. The HTTP REST Client VIs are located under the JKI Tools functions
 palette menu.
 
 ![Functions palette](https://github.com/JKISoftware/JKI-REST-Client/raw/master/img/rest-palette.png "Functions palette")
@@ -77,7 +85,7 @@ The VI provides multiple arguments for defining how to perform the HTTP request.
 **Path** specifies the path beneath the Base URL to be used for the HTTP request.
 
 **request specific headers** specifies an array of headers to be used with this particular HTTP request. 
-The Default Headers specified upon creation of the JKI REST Client together with the request specific headers will all be 
+The Default Headers specified upon creation of the HTTP REST Client together with the request specific headers will all be 
 used for the HTTP request.
 
 #### HTTP POST
@@ -162,9 +170,9 @@ To contribute to JKI REST Client, you will need 32-bit LabVIEW 2013 f2 professio
 
 ## Credits
 
-JKI REST Client is an open source project maintained by [JKI](http://jki.net).
+HTTP REST Client is an open source project originally created by [JKI](http://jki.net) and maintained by the community.
 
 ## License
 
-JKI REST Client is distributed under the open source three clause BSD license providing everyone right to use and distribute both souce code
-and compiled versions of JKI REST Client. See LICENSE.md file for details.
+HTTP REST Client is distributed under the open source three clause BSD license providing everyone right to use and distribute both souce code
+and compiled versions of HTTP REST Client. See [LICENSE.md](LICENSE.md) file for details.
