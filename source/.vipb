@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2013-10-24 11:48:51" Modified_Date="2023-08-22 20:44:43" Creator="Tomi Maila" Comments="" ID="277ad482c6ed30e18c6ced39701eb35e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2013-10-24 11:48:51" Modified_Date="2023-12-03 10:12:25" Creator="Tomi Maila" Comments="" ID="49e05fe6ac842d3fd8e048770794334d">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_rest_client</Package_File_Name>
-    <Library_Version>2.1.0.34</Library_Version>
+    <Library_Version>2.1.0.35</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -17,6 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <External_Dependencies>ni_lib_advanced_http_client_api &gt;= 1.0.0.4</External_Dependencies>
       <Direct_Dependencies>ni_lib_advanced_http_client_api-1.0.0.4</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
@@ -415,7 +416,7 @@
         <Path>Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>10A7B2DE03DCED4AC8A9B25ADC65E3E5</GUID>
+      <GUID>ACFA468E014FA6E6084E4174E60FF6F1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -464,7 +465,7 @@
         <Path>classes\Response Headers\Get All Headers.vi</Path>
         <VI_Title>Get All Headers (REST)</VI_Title>
       </Items_Data>
-      <GUID>647B6CC5611FE41DB319D839E1AF22C7</GUID>
+      <GUID>13FF30F5D4B42EB8BE2DB2AFC37E5C41</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -625,7 +626,7 @@
         <Path>classes\REST Client\Write Verify Server.vi</Path>
         <VI_Title>Write Verify Server (REST)</VI_Title>
       </Items_Data>
-      <GUID>7E04056F25E9D2A401CFE1BE304F3290</GUID>
+      <GUID>CAD2CA7FDC6A320E37C4F99814DC4563</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -660,7 +661,7 @@
         <Path>classes\REST Client\Escape URL String.vi</Path>
         <VI_Title>Escape URL String (REST)</VI_Title>
       </Items_Data>
-      <GUID>2E85BDA9A11C759337A7BCFDA35BEBD6</GUID>
+      <GUID>1B7F7369048732AB409EB4CE0DF7E621</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
