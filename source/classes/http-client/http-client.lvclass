@@ -146,7 +146,7 @@
 		</Item>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
-		<Item Name="Assert_Buffer_Is_File.vi" Type="VI" URL="../../REST Client/Assert_Buffer_Is_File.vi">
+		<Item Name="Assert_Buffer_Is_File.vi" Type="VI" URL="../Assert_Buffer_Is_File.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#+!!!!"1!%!!!!$E!S`````Q2';7RF!!!/1#%);8-A2GFM:4]!!!Z!-0````]%9G^E?1!!6!$Q!!Q!!!!!!!%!!A!!!!!!!!!!!!!!!!!$!!!$!!"Y!!!!!!!!!!!!!!E!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#%!!!!!!!!!!!!1!%!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">168</Property>
