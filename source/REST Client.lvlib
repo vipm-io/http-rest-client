@@ -8,7 +8,6 @@
 	<Item Name="http-client" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="http-client.lvclass" Type="LVClass" URL="../http-client/http-client.lvclass"/>
-		<Item Name="http-method-patch.lvclass" Type="LVClass" URL="../http-method-patch/http-method-patch.lvclass"/>
 		<Item Name="basic-http-client.lvclass" Type="LVClass" URL="../plugin/basic-http-client/basic-http-client.lvclass"/>
 	</Item>
 	<Item Name="Response Headers.lvclass" Type="LVClass" URL="../classes/Response Headers/Response Headers.lvclass"/>
