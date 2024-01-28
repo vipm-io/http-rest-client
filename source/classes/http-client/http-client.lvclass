@@ -155,6 +155,24 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">536592</Property>
 		</Item>
+		<Item Name="Escape URL String.vi" Type="VI" URL="../Escape URL String.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A!!!!!Q!A1$$`````&amp;E6T9W&amp;Q:71A66*-)(.U=GFO:S"P&gt;81!!#"!-0````]867ZF=W.B='6E)&amp;634#"T&gt;(*J&lt;G=A;7Y!'!$Q!!)!!!!"!A!!#!!!#1!!!AA!!!!!!1!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
+		</Item>
+		<Item Name="Parse Status Line.vi" Type="VI" URL="../Parse Status Line.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$H!!!!#!!71$$`````$%B56&amp;!A6G6S=WFP&lt;A!!&amp;E!Q`````QR)6&amp;21)%BF972F=H-!!":!-0````].5X2B&gt;(6T)&amp;.U=GFO:Q!21!9!#V.U982V=S"$&lt;W2F!!1!!!!51$$`````#V.U982V=S"-;7ZF!#"!-0````]73'6B:'6S=S"X,S"T&gt;'&amp;U&gt;8-A&lt;'FO:1!!6!$Q!!Q!!!!"!!)!!Q!%!!5!"!!%!!1!"!!%!!9#!!"Y!!!*!!!!#1!!!!E!!!!*!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!2)!!!!!!1!(!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342714368</Property>
+		</Item>
 	</Item>
 	<Item Name="typedefs" Type="Folder">
 		<Item Name="headers -- array.ctl" Type="VI" URL="../headers -- array.ctl">
