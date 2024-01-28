@@ -9,7 +9,6 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="http-client.lvclass" Type="LVClass" URL="../classes/http-client/http-client.lvclass"/>
 		<Item Name="basic-http-client.lvclass" Type="LVClass" URL="../classes/basic-http-client/basic-http-client.lvclass"/>
-		<Item Name="advanced-http-client.lvclass" Type="LVClass" URL="../classes/advanced-http-client/advanced-http-client.lvclass"/>
 	</Item>
 	<Item Name="Response Headers.lvclass" Type="LVClass" URL="../classes/Response Headers/Response Headers.lvclass"/>
 	<Item Name="REST Client.lvclass" Type="LVClass" URL="../classes/REST Client/REST Client.lvclass"/>

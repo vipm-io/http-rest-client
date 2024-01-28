@@ -13,6 +13,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="advanced-http-client.lvclass" Type="LVClass" URL="../classes/advanced-http-client/advanced-http-client.lvclass"/>
 		<Item Name="REST Client.lvlib" Type="Library" URL="../REST Client.lvlib"/>
 		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
 		<Item Name=".vipc" Type="Document" URL="../.vipc"/>
