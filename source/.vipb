@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2013-10-24 11:48:51" Modified_Date="2024-01-27 17:14:44" Creator="Tomi Maila" Comments="" ID="3b1b19c0ee874c5e7b7429398c8301bd">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2013-10-24 11:48:51" Modified_Date="2024-01-28 09:33:36" Creator="Tomi Maila" Comments="" ID="68334bcc04844ee48b9b8ea90ed219f9">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_rest_client</Package_File_Name>
-    <Library_Version>2.1.1.41</Library_Version>
+    <Library_Version>2.1.1.42</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -430,7 +430,7 @@
         <Path>classes\REST Client\Create REST Client (plugin).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2BE993776D8A2338325E5CFD48178683</GUID>
+      <GUID>D891B12408A494A734AA41EB8A2E9C54</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -479,7 +479,7 @@
         <Path>classes\Response Headers\Get All Headers.vi</Path>
         <VI_Title>Get All Headers (REST)</VI_Title>
       </Items_Data>
-      <GUID>CDD13AE39E2A96AA62C50B3D951141B6</GUID>
+      <GUID>5CC98E97C78E04E2F7094ADAEC577C82</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -640,7 +640,7 @@
         <Path>classes\REST Client\Write Verify Server.vi</Path>
         <VI_Title>Write Verify Server (REST)</VI_Title>
       </Items_Data>
-      <GUID>F0BB646D6D67F30D40B11EB23F343351</GUID>
+      <GUID>3FC7112AC2C145656DEF2A524326A5ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -843,7 +843,7 @@
         <Path>Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>15D597CA3DA20B6A33B485D474ADBE52</GUID>
+      <GUID>A5112431D020C32A9E475F5793465085</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -906,7 +906,7 @@
         <Path>classes\http-client\Parse Status Line.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>00049227BF67001916D30D40B5EDF6EE</GUID>
+      <GUID>3F75FE460AF987685AB305CCC9659D41</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
