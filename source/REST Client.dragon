@@ -3,4 +3,6 @@ labview-version = 2020
 vipc = ".vipc"
 
 [vipm.dependencies]
-ni_lib_mac_osx_placeholders = "1.1-1"
+ni_lib_advanced_http_client_api = "1.0.1.5"
+
+[nipm]
