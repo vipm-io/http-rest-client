@@ -13,6 +13,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name=".net" Type="Folder">
+			<Item Name="net-http-client.lvclass" Type="LVClass" URL="../net-http-client/net-http-client.lvclass"/>
+			<Item Name="net-response.lvclass" Type="LVClass" URL="../net-response/net-response.lvclass"/>
+		</Item>
 		<Item Name="advanced-http-client.lvclass" Type="LVClass" URL="../classes/advanced-http-client/advanced-http-client.lvclass"/>
 		<Item Name="http.lvlib" Type="Library" URL="../http.lvlib"/>
 		<Item Name="REST Client.lvlib" Type="Library" URL="../REST Client.lvlib"/>
@@ -37,10 +41,22 @@
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="lib_NI_Advanced HTTP Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Advanced HTTP Client/lib_NI_Advanced HTTP Client.lvlib"/>
-				<Item Name="lvwebclient_32.dll" Type="Document" URL="/&lt;vilib&gt;/NI/Advanced HTTP Client/lvwebclient_32.dll"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="lvwebclient_64.dll" Type="Document" URL="/&lt;vilib&gt;/NI/Advanced HTTP Client/lvwebclient_64.dll"/>
+				<Item Name="HttpClient_NET.lvlib" Type="Library" URL="/&lt;vilib&gt;/Viviota/Viviota HTTP Client NET/HttpClient_NET.lvlib"/>
+				<Item Name=".NET Object To Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/dotnet.llb/.NET Object To Variant.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 			</Item>
 			<Item Name="My API.lvclass" Type="LVClass" URL="../examples/JSONPlaceholder/Classes/My API/My API.lvclass"/>
+			<Item Name="System.Net.Http" Type="Document" URL="System.Net.Http">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="System" Type="VI" URL="System">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
