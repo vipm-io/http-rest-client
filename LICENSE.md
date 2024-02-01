@@ -1,4 +1,4 @@
-Copyright (c) 2016, JKI 
+Copyright (c) 2016-2023, JKI and contributors
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

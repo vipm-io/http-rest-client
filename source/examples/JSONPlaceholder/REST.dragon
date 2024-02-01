@@ -1,0 +1,10 @@
+[project]
+labview-version = 2017
+vipc = ""
+
+[nipm]
+
+[vipm]
+
+[vipm.dependencies]
+ni_lib_mac_osx_placeholders = "1.1-1"
