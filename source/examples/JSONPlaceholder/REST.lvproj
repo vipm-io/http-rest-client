@@ -16,6 +16,7 @@
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="My API.lvclass" Type="LVClass" URL="../Classes/My API/My API.lvclass"/>
 		<Item Name="REST Client.lvlib" Type="Library" URL="../../../REST Client.lvlib"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../../../classes/http-client/Untitled 1.vi"/>
 		<Item Name="Package Dependencies" Type="IIO Ladder Diagram">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Property Name="ShowPackages" Type="Bool">false</Property>
