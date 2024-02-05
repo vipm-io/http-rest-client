@@ -5,11 +5,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="http-client" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="http-client.lvclass" Type="LVClass" URL="../classes/http-client/http-client.lvclass"/>
-		<Item Name="basic-http-client.lvclass" Type="LVClass" URL="../classes/basic-http-client/basic-http-client.lvclass"/>
-	</Item>
-	<Item Name="Response Headers.lvclass" Type="LVClass" URL="../classes/Response Headers/Response Headers.lvclass"/>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="REST Client.lvclass" Type="LVClass" URL="../classes/REST Client/REST Client.lvclass"/>
+	<Item Name="Response Headers.lvclass" Type="LVClass" URL="../classes/Response Headers/Response Headers.lvclass"/>
 </Library>

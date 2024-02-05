@@ -13,7 +13,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="advanced-http-client.lvclass" Type="LVClass" URL="../classes/advanced-http-client/advanced-http-client.lvclass"/>
+		<Item Name="httpClient.lvlib" Type="Library" URL="../http-client-pkg/httpClient.lvlib"/>
+		<Item Name="HttpClient.NiAdvanced.lvlib" Type="Library" URL="../http-client-advanced-pkg/HttpClient.NiAdvanced.lvlib"/>
 		<Item Name="REST Client.lvlib" Type="Library" URL="../REST Client.lvlib"/>
 		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
 		<Item Name=".vipc" Type="Document" URL="../.vipc"/>
@@ -37,6 +38,7 @@
 				<Item Name="lvwebclient_32.dll" Type="Document" URL="/&lt;vilib&gt;/NI/Advanced HTTP Client/lvwebclient_32.dll"/>
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
