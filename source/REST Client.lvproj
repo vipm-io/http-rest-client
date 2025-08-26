@@ -14,8 +14,19 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Testing" Type="Folder">
+			<Item Name="simpletest.vi" Type="VI" URL="../testing/simpletest.vi"/>
+			<Item Name="testErr.vi" Type="VI" URL="../testing/testErr.vi"/>
+			<Item Name="testTimer.vi" Type="VI" URL="../testing/testTimer.vi"/>
+		</Item>
+		<Item Name="Abstract" Type="Folder">
+			<Item Name="HTTP Client Abstract.lvlib" Type="Library" URL="/&lt;vilib&gt;/VIPM Community/HTTP Client Plugin - Base/HTTP Client Abstract.lvlib"/>
+			<Item Name="HTTP Client Advanced.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/VIPM Community/HTTP Client Plugin - NI Advanced/Classes/HTTP Client Advanced/HTTP Client Advanced.lvclass"/>
+			<Item Name="HTTP Client reqwest.lvclass" Type="LVClass" URL="../../../labview-rs-reqwest/lv_src/HTTP Client Plugin/HTTP Client reqwest.lvclass"/>
+			<Item Name="reqwest.lvlib" Type="Library" URL="../../../labview-rs-reqwest/lv_src/reqwest.lvlib"/>
+			<Item Name="lv_reqwest_64.dll" Type="Document" URL="../../../labview-rs-reqwest/lv_src/lv_reqwest_64.dll"/>
+		</Item>
 		<Item Name="REST Client.lvlib" Type="Library" URL="../REST Client.lvlib"/>
-		<Item Name="HTTP Client Abstract.lvlib" Type="Library" URL="/&lt;vilib&gt;/VIPM Community/HTTP Client Plugin - Base/HTTP Client Abstract.lvlib"/>
 		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
 		<Item Name=".vipc" Type="Document" URL="../.vipc"/>
 		<Item Name="README.html" Type="Document" URL="../README.html"/>
